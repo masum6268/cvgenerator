@@ -1,6 +1,4 @@
-// alert("preview")
 
-                      // WORK EXPERIENCE FIELD
 function addNewWeField(){
 // console.log("mmmmmmm");
 let newNode=document.createElement('textarea');
@@ -17,7 +15,7 @@ let weAddButtonOb = document.getElementById('weAddButton');
 weOb.insertBefore(newNode,weAddButtonOb);
 }
 
-                       //  EDUCATION FIELD
+       //  EDUCATION FIELD
 function addNewEduField(){
     let newNode=document.createElement('textarea');
 newNode.classList.add('form-control');
@@ -173,10 +171,9 @@ reader.onloadend =function(){
 }
 
 
-document.getElementById("goback").style.display = "block";
 document.getElementById("download").style.display = "block";
- document.getElementById("cv-form").style.display = "none";
-  document.getElementById("cv-template").style.display = "grid";
+document.getElementById("cv-form").style.display = "none";
+document.getElementById("cv-template").style.display = "grid";
 }
 
                                               // goback
